@@ -1,0 +1,42 @@
+@use "../abstracts/variables";
+
+.footer-container {
+  border-top: 1px solid $grey;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+
+  & img {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  & p {
+    margin-left: auto;
+  }
+}
+
+.contact {
+  &__contacts-list {
+    display: flex;
+    flex-direction: column;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    &p:hover {
+      color: $black;
+    }
+
+    & i {
+      font-size: $font32;
+      margin-right: 5px;
+    }
+  }
+}

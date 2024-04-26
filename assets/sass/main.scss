@@ -1,0 +1,15 @@
+@use "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "abstracts/variables";
+
+@import "base/reset";
+@import "base/typography";
+
+@import "components/buttons";
+@import "components/carrousel";
+@import "components/cover";
+@import "components/input";
+
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
